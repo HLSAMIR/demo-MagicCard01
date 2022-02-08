@@ -5,14 +5,14 @@
 }
 
 :root {
-  --card-height: 65vh;
-  --card-width: calc(var(--card-height) / 1.5);
+  --card-height: 80vh;
+  --card-width: calc(var(--card-height) / 7);
 }
 
 
 body {
   min-height: 100vh;
-  background: #212534;
+  background: #ff4500;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -23,18 +23,18 @@ body {
 
 
 .card {
-  background: #191c29;
+  background: #ffc0cb;
   width: var(--card-width);
   height: var(--card-height);
-  padding: 3px;
+  padding: 9px;
   position: relative;
-  border-radius: 6px;
+  border-radius: 89px;
   justify-content: center;
   align-items: center;
   text-align: center;
   display: flex;
-  font-size: 1.5em;
-  color: rgb(88 199 250 / 0%);
+  font-size: 7em;
+  color: rgb(8883 399 650 / 100%);
   cursor: pointer;
   font-family: cursive;
 }
